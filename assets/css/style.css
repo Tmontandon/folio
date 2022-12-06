@@ -10,6 +10,13 @@
 --------------------------------------------------------------*/
 
 
+.text-shadow-nav {
+  color: rgb(157, 157, 218);
+  text-shadow: 0px 0px 4px rgb(11, 37, 232), 0px 0px 4px rgb(235, 232, 232);
+  font-weight: bold;
+  letter-spacing: 0.08rem
+}
+
 .text-shadow-light {
   text-shadow: 0px 0px 3px rgb(238, 233, 233), 0px 0px 4px rgba(53, 53, 53, 0.752);
   font-weight: bold;
@@ -186,7 +193,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: rgb(250, 248, 248);
   transition: all 0.5s;
   z-index: 997;
   height: 86px;
